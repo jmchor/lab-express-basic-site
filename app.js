@@ -14,5 +14,8 @@ app.get('/about', (req, res) => {
 app.get('/work', (req, res) => {
 	res.sendFile('views/work.html', { root: __dirname });
 });
+app.get('/gallery', (req, res) => {
+	res.sendFile('views/gallery.html', { root: __dirname });
+});
 
 app.listen(port, () => console.log(`🏃‍ on port ${port}`));

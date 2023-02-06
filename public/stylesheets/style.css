@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;1,700&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+#card-container-work {
+	display: flex;
+	width: 70rem;
+	flex-wrap: wrap;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 15rem;
+	padding: 20px;
+	margin: 20px;
+	align-items: center;
+}
+
+.card:hover {
+	background-color: green;
+	color: white;
+	transform: scale(1.1);
+}
+
+.card img {
+	width: 10rem;
+}
+
+body,
+body#index {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 10px;
+	font-family: 'Work Sans', sans-serif;
+	gap: 100px;
+}
+
+body#index {
+	background: url('https://images.unsplash.com/photo-1611915387288-fd8d2f5f928b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+main,
+#index-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.6em;
+}
+
+#index-main {
+	color: rgb(81, 255, 0);
+	font-size: 2em;
+}
+
+#index-main a {
+	color: rgb(81, 255, 0);
+	text-decoration: none;
+}
+
+nav {
+	font-size: 2em;
+	font-weight: 700;
+	background-color: green;
+	width: 100%;
+	padding: 20px 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#main-para-work {
+	width: 50%;
+	font-size: 1.4em;
+	line-height: 1.2em;
+}
+
+button {
+	margin: 10px;
+	border: none;
+	color: white;
+	font-size: 1.4em;
+	padding: 20px 40px;
+	background-color: green;
+	height: 70px;
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#wrong-cat {
+	display: none;
+}
+
+#catbox {
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+	align-items: center;
+}
+
+#image-container {
+	width: 500px;
+	display: flex;
+	justify-content: space-around;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	font-size: 1.6em;
+}

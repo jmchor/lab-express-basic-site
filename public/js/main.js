@@ -31,15 +31,19 @@ async function fetchCatImage() {
 		catImage.style.height = '400px';
 		imageContainer.appendChild(catImage);
 		imageIsRendered = true;
+
 	} catch (error) {
 		console.log(error);
 	}
 }
 
+
+
 window.onload = () => {
 	fetchCatImage();
+
+
 };
 
 catButton.addEventListener('click', createHobbies);
 maybeCatButton.addEventListener('click', fetchCatImage);
-wrongCatButton.addEventListener('click', removeImage);

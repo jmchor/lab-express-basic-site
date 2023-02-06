@@ -21,6 +21,7 @@ html {
 	padding: 20px;
 	margin: 20px;
 	align-items: center;
+	justify-content: center;
 }
 
 .card:hover {
@@ -31,6 +32,10 @@ html {
 
 .card img {
 	width: 10rem;
+}
+
+.cat-link {
+	height: fit-content;
 }
 
 body,
